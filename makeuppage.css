@@ -1,0 +1,104 @@
+#main {
+  display: flex;
+}
+#types {
+  width: 20%;
+
+  font-size: 22px;
+}
+#types > h2 {
+  margin-left: 40px;
+  font-family: Merriweather;
+}
+
+#types > button {
+  margin: 30px 45px;
+  font-size: 22px;
+  border: 0;
+  background-color: white;
+  font-weight: 550;
+  font-family: Merriweather;
+}
+#types > button:nth-child(1) {
+  margin-top: 20px;
+}
+#display {
+  width: 80%;
+  /* border: 1px solid red; */
+}
+#items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* border: 1px solid red; */
+  grid-gap: 20px;
+}
+#items > div {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  height: 300px;
+}
+#sort {
+  height: 100px;
+  display: flex;
+}
+#total {
+  width: 65%;
+  /* border: 1px solid green; */
+  margin-top: 50px;
+  padding-left: 40px;
+  font-size: 20px;
+}
+#total ~ select {
+  width: 16%;
+  margin-top: 40px;
+  border: 0;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 550;
+  font-family: Merriweather;
+}
+#total + p {
+  margin: 60px 0px 0px 30px;
+  font-size: 18px;
+}
+#images {
+  width: 70%;
+  height: 180px;
+}
+#rate {
+  display: flex;
+  width: 80%;
+
+  height: 30px;
+  margin-top: -20px;
+  padding-left: 20px;
+  padding-top: -20px;
+}
+#rate > h4 {
+  padding-top: -10px;
+  /* border: 1px solid green; */
+}
+#price {
+  width: 60%;
+  /* border: 1px solid red; */
+  padding-left: 20px;
+  font-size: 19px;
+}
+#addToCart {
+  margin-left: -30px;
+  font-size: 14px;
+  padding: 10px;
+  background-color: rgb(207, 17, 44);
+  margin-top: -20px;
+  border: 0;
+  color: white;
+  border-radius: 20px;
+  width: 80%;
+  font-weight: bold;
+  cursor: pointer;
+}
+#dis {
+  margin-top: -20px;
+}
+button {
+  cursor: pointer;
+}
