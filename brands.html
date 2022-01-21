@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='./data.js'>
+    </script>
+
+    <style>
+
+        #main {
+            display: flex;
+            height: 100vh;
+        }
+
+        #brands {
+            width: 23%;
+            height: 90%;
+            overflow-y: scroll;
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+
+        .ckbox {
+
+        }
+
+    </style>
+</head>
+<body>
+    <main id="main">
+        <div id="brands">
+        </div>
+    </main> 
+</body>
+</html>
+<script>
+    var sephoraItemsData = JSON.parse(localStorage.getItem('sephoraItemsData'));
+    var brandCounts = {}
+    sephoraItemsData.map(function (item) {
+        if (!brandCounts[item.brand]) {
+            brandCounts[item.brand] = 1;
+        } else {
+            brandCounts[item.brand] += 1;
+        }
+    });
+
+    var brands = [];
+    for (var brand in brandCounts) {
+        brands.push(brand);
+    }
+
+    var brandsDiv = document.getElementById('brands');
+    for (var brand of brands) {
+        var checkbox = document.createElement('input');
+        checkbox.type = "checkbox";
+        checkbox.name = brand;
+        checkbox.value = brand;
+        checkbox.id = brand;
+
+        var label = document.createElement('label');
+        label.htmlFor = brand;
+        label.textContent = brand;
+
+        var ckbox = document.createElement('div')
+        ckbox.classList.add('ckbox');
+        ckbox.append(checkbox, label);
+
+        brandsDiv.append(ckbox);
+    }
+
+    function getSelectedBrands() {
+        var selectedBrands = [];
+        document.querySelectorAll('#brands input').forEach(function (brand) {
+            if (brand.checked) {
+                selectedBrands.push(brand.value);
+            }
+        });
+        return selectedBrands;
+    }
+
+    brandsDiv.addEventListener('change', function (e) {
+        var selectedBrands = getSelectedBrands();
+        var filteredBrands = selectedBrands.filter(function (brand) {
+            return selectedBrands.includes(brand);
+        });
+        // updateScreen(filteredBrands);
+    });
+
+</script>
