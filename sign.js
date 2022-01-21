@@ -17,7 +17,7 @@ var createArr=JSON.parse(localStorage.getItem("createItem"));
         }
         if(c==1){
             alert("Login Successfully");
-            window.location.href="homepage.html";
+            window.location.href="index.html";
         }
         else{
             alert("Email or Password is incorrect");
