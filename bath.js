@@ -57,11 +57,11 @@ function createDisplay(arr){
     img1.setAttribute("id","images");
     img1.setAttribute("src",ele.imageUrl);
     head1.textContent=ele.name;
-    
+    var i=document.createElement("i");
     p1.textContent=ele.brand;
 
     head2.innerHTML=ele.stars+'<i class="fas fa-star"></i>'+"   "+ele.numReviews+"   (Reviews)";
-   
+   i.setAttribute("id","i");
     head3.textContent="Price is:  $"+ele.price;
     head3.setAttribute("id","price");
     btn.textContent="Add to Basket ";

@@ -49,12 +49,13 @@ function createDisplay(arr){
     btn.setAttribute("id","addToCart");
     img1.setAttribute("id","images");
     img1.setAttribute("src",ele.imageUrl);
+    var i=document.createElement("i");
     head1.textContent=ele.name;
     
     p1.textContent=ele.brand;
 
     head2.innerHTML=ele.stars+'<i class="fas fa-star"></i>'+"   "+ele.numReviews+"   (Reviews)";
-   
+    i.setAttribute("id","i");
     head3.textContent="Price is:  $"+ele.price;
     head3.setAttribute("id","price");
     btn.textContent="Add to Basket ";
