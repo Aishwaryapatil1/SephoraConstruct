@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="makeuppage.css">
+     <style>
+        
+        #display{
+            /* border:1px solid red; */
+            width:80%;
+            
+            margin: auto;
+        }
+        /* #item{
+            border: 1px solid green;
+            display: grid;
+            grid-template-columns: repeat(4,1fr); 
+        } */
+        #totalprice{
+            padding:10px;
+            font-size: 25px;
+            width:60%;
+            /* border: 1px solid black; */
+            margin-left: 20px;
+        }
+        #selectSort{
+            height:30px;
+            border:0;
+            background-color: white;
+            margin: 55px 0px 0px 10px;
+            font-size: 15px;
+
+        }
+        #totalprice+p{
+            margin-top: 60px ;
+            margin-left: 20px;
+            font-size: 18px;
+        }
+        #checkout{
+            margin:50px 450px;
+            padding:10px;
+            font-size: 18px;
+            background-color: rgb(207, 17, 44);
+            color:white;
+            border:0;
+            width: 170px;
+            border-radius: 20px;
+        }
+    </style> 
+</head>
+<body>
+    <div id="display">
+        <div id="sort">
+           <h2 id="totalprice">  </h2>
+            
+            <p>Sort by:</p>
+            <select  id="selectSort" onchange="sorting()">
+                
+                <option value="">Relevance(Default)</option>
+                <option value="rated">Top Rated</option>
+                <option value="low">Price Low to High</option>
+                <option value="high">Price High to Low</option>
+            </select>
+        </div>
+        <div id="items"></div>
+        <button id="checkout" onclick="check()"> CheckOut</button>
+    </div>
+    
+</body>
+</html>
+<script src="basket.js"></script>

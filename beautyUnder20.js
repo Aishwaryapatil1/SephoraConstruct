@@ -32,21 +32,22 @@ function hair(){
 }
 document.querySelector("#fragrance").addEventListener("click",fragrance);
 function fragrance(){
-   var fragranceArr=makeupArr.filter(function(ele){
+   var fragranceArr=beautyArr.filter(function(ele){
        return ele.category=="fragrance" && ele.price<=20;
    })
+//    console.log(fragranceArr);
    createDisplay(fragranceArr);
 }
 document.querySelector("#tools").addEventListener("click",tools);
 function tools(){
-   var toolsArr=makeupArr.filter(function(ele){
+   var toolsArr=beautyArr.filter(function(ele){
        return ele.category=="tools" && ele.price<=20;
    })
    createDisplay(bathArr);
 }
 document.querySelector("#bath").addEventListener("click",bath);
 function bath(){
-   var bathArr=makeupArr.filter(function(ele){
+   var bathArr=beautyArr.filter(function(ele){
        return ele.category=="bath" && ele.price<=20;
    })
    createDisplay(bathArr);

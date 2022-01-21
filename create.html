@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/629044acfa.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet"> 
     <title>Document</title>
     <style>
+        body{
+            display: flex;
+        }
+        #home{
+        width:150px;
+        font-size:18px;
+        height:50px;
+        border-radius: 0px;
+        margin:100px 0px 0px 200px;
+        background-color: black;
+        color: white;
+        font-family: "Merriweather";
+        padding:5px;
+        border: 0;
+        cursor: pointer;
+      }
         #container {
   width: 35%;
   margin: 40px auto;
@@ -61,6 +81,7 @@ p{
     </style>
 </head>
 <body>
+    <button id="home" onclick="window.location.href='sign.html'"><i class="fas fa-arrow-left"></i> GoTo signIn  </button>
     <div id="container">
         <div id="display">
            <h3>Create an Account</h3>
