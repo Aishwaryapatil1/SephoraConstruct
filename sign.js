@@ -23,3 +23,8 @@ var createArr=JSON.parse(localStorage.getItem("createItem"));
             alert("Email or Password is incorrect");
         }
     }
+
+document.getElementById('createAccount').addEventListener('click', function () {
+    console.log('clicked')
+    window.location.href = 'create.html'
+})

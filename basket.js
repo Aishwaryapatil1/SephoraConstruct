@@ -6,7 +6,7 @@ var totalValue=basketItem.reduce(function(acc,cv){
 
 display(totalValue,basketItem.length);
     function display(total,n){
-        document.querySelector("#totalprice").textContent="Total Number of Items  "+n+"  and Price Is:"+total;
+        document.querySelector("#totalprice").textContent="Total Number of Items:  "+n+"  and Price Is: $"+total;
     }
 createDisplay(basketItem);
 function createDisplay(arr){

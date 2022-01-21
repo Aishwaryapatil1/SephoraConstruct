@@ -43,7 +43,7 @@ function tools(){
    var toolsArr=beautyArr.filter(function(ele){
        return ele.category=="tools" && ele.price<=20;
    })
-   createDisplay(bathArr);
+   createDisplay(toolsArr);
 }
 document.querySelector("#bath").addEventListener("click",bath);
 function bath(){
