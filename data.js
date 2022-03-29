@@ -806,8 +806,8 @@ var sephoraItemsData = [
     name: "Unseen Sunscreen SPF 40 PA+++",
     numReviews: 2600,
     price: 20,
-    category: "skincare",
-    type: "sunscreen"
+    category: "sunscreen",
+    type: "masks"
   },
   {
     stars: 4,
@@ -816,8 +816,8 @@ var sephoraItemsData = [
     name: "Glowscreen Sunscreen SPF 40 PA+++",
     numReviews: 1000,
     price: 36,
-    category: "skincare",
-    type: "sunscreen"
+    category: "sunscreen",
+    type: "masks"
   },
   {
     stars: 4.5,
@@ -826,8 +826,8 @@ var sephoraItemsData = [
     name: "Daily UV Defense Sunscreen SPF 36",
     numReviews: 886,
     price: 15,
-    category: "skincare",
-    type: "sunscreen"
+    category: "sunscreen",
+    type: "masks"
   },
   {
     stars: 4,
@@ -836,8 +836,8 @@ var sephoraItemsData = [
     name: "Cicapair™ Tiger Grass Color Correcting Treatment SPF 30",
     numReviews: 4500,
     price: 20,
-    category: "skincare",
-    type: "sunscreen"
+    category: "sunscreen",
+    type: "masks"
   },
   {
     stars: 4.5,
@@ -846,8 +846,8 @@ var sephoraItemsData = [
     name: "Daily Dose Hydra-Ceramide Boost + SPF 40 Sunscreen Oil PA+++",
     numReviews: 69,
     price: 46,
-    category: "skincare",
-    type: "sunscreen"
+    category: "sunscreen",
+    type: "masks"
   },
   {
     stars: 4,
@@ -856,8 +856,8 @@ var sephoraItemsData = [
     name: "Hydra Vizor Invisible Moisturizer Broad Spectrum SPF 30 Sunscreen with Niacinamide",
     numReviews: 553,
     price: 22,
-    category: "skincare",
-    type: "sunscreen"
+    category: "sunscreen",
+    type: "masks"
   },
   {
     stars: 4,
@@ -866,8 +866,8 @@ var sephoraItemsData = [
     name: "Gradual Self-Tanning Face Gel",
     numReviews: 57,
     price: 10,
-    category: "skincare",
-    type: "sunscreen"
+    category: "sunscreen",
+    type: "masks"
   },
   {
     stars: 4.5,
@@ -876,8 +876,8 @@ var sephoraItemsData = [
     name: "RESIST Youth-Extending Daily Hydrating Fluid SPF 50",
     numReviews: 278,
     price: 35,
-    category: "skincare",
-    type: "sunscreen"
+    category: "sunscreen",
+    type: "masks"
   },
   {
     stars: 4,
@@ -886,8 +886,8 @@ var sephoraItemsData = [
     name: "Mini PLAY Everyday Sunscreen Lotion SPF 50 PA++++",
     numReviews: 921,
     price: 22,
-    category: "skincare",
-    type: "sunscreen"
+    category: "sunscreen",
+    type: "masks"
   },
   {
     stars: 3.5,
@@ -896,8 +896,8 @@ var sephoraItemsData = [
     name: "Mineral Mattescreen Sunscreen SPF 40 PA+++",
     numReviews: 42,
     price: 38,
-    category: "skincare",
-    type: "sunscreen"
+    category: "sunscreen",
+    type: "masks"
   },
   {
     stars: 4,
