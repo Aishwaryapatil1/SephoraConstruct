@@ -19,4 +19,5 @@ AS part of unit 2 construct week we cloned the frontend of sephora.com to the be
    <img src="https://img.icons8.com/color/64/000000/javascript.png"/>
    <img src="https://img.icons8.com/color/64/000000/html-5.png"/>
    <img src="https://img.icons8.com/color/64/000000/css3.png"/>
+   <img src="https://img.icons8.com/color/64/000000/json.png" />
 </p>
