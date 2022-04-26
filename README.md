@@ -8,9 +8,9 @@ AS part of unit 2 construct week we cloned the frontend of sephora.com to the be
 
 ## collaborators
 - [Pranav R](github.com/git-pranavr)
-- Aishwara Patil
-- Rohit Raj
-- Ganesh S Prubhu
+- [Aishwara Patil](https://github.com/Aishwaryapatil1)
+- [Rohit Raj](https://github.com/Rohitraj97)
+- [Ganesh S Prubhu](https://github.com/Ganesh-S-Prabhu)
 
 
 ## Tech Stack
